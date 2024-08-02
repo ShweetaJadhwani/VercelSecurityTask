@@ -1,0 +1,318 @@
+body {
+    margin: 0;
+    /* font-family: 'Times New Roman', Times, serif; */
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 3px 5px;
+    border-bottom: 1px solid #ddd;
+}
+
+.left-section, .right-section {
+    display: flex;
+    align-items: center;
+}
+
+.menu-icon, .search-icon {
+    font-size: 18px;
+    margin-right: 20px;
+    cursor: pointer;
+}
+
+.section-title {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.center-section img {
+    height: 30px;
+}
+
+.subscribe-btn {
+    background-color: #4455719f;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    font-size: 10px;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.account-menu {
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.account-menu::after {
+    content: ' \25BE';
+    font-size: 12px;
+}
+
+/* .line{
+    font-size: 10px;
+    color: aliceblue;
+  margin-right: 60px;
+/* border: 1px solid gainsboro; */
+
+
+.advertisement {
+    background-color: #f8f8f8;
+    border-top: 1px solid #ddd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.ad-content {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.ad-left, .ad-right {
+    width: 50%;
+    padding: 20px;
+}
+
+.ad-left {
+    background-color: black;
+    color: white;
+    text-align: center;
+    position: relative;
+}
+
+.ad-right {
+    background-color: #f8f8f8;
+    color: black;
+    text-align: left;
+}
+
+.nyt-logo {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+.nyt-logo img{
+    height: 17px;
+}
+
+.ad-text-large {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.ad-controls {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+}
+
+.ad-play-pause, .ad-mute {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 24px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+
+.ad-price {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+.old-price {
+    text-decoration: line-through;
+    margin-right: 10px;
+}
+
+.new-price {
+    color: rgb(20, 20, 20);
+    font-weight: bold;
+}
+
+.ad-subscribe {
+    background-color: black;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 14px;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.ad-cancel {
+    font-size: 14px;
+    color: gray;
+}
+.bttn{
+    font-size: 10px;
+}
+
+
+.article-section {
+    padding: 40px 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.article-section h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.article-section p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+}
+
+.article-actions {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.article-actions button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    padding: 10px 20px;
+    display: flex;
+    align-items: center;
+}
+
+.listen-btn::before {
+    /* content: '▶'; */
+    margin-right: 5px;
+}
+
+.share-btn::before {
+    /* content: '🎁'; */
+    margin-right: 5px;
+}
+
+.more-btn::before {
+    content: '↺';
+    margin-right: 5px;
+}
+
+
+/* Image Section */
+.image-section {
+    max-width: 800px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.image-section img {
+    width: 550px;
+    height: auto;
+}
+
+.caption {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+    text-align: left;
+}
+
+.caption .credit {
+    font-style: italic;
+    color: #888;
+}
+
+
+/* Article Content Section */
+.article-content {
+    max-width: 800px;
+    margin: 20px auto;
+    font-family: 'Georgia', serif;
+}
+
+.author {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.author img {
+    border-radius: 50%;
+    margin-right: 15px;
+}
+
+.author-details {
+    font-size: 14px;
+    color: #555;
+}
+
+.author-details .byline span {
+    font-weight: bold;
+}
+
+.article-text {
+    font-size: 18px;
+    line-height: 1.6;
+    color: #333;
+}
+
+.article-text a {
+    color: #326891;
+    text-decoration: none;
+}
+
+.article-text a:hover {
+    text-decoration: underline;
+}
+
+
+/* Footer Section */
+footer {
+    background-color: #f8f9fa;
+    border-top: 1px solid #e5e5e5;
+    padding: 20px 0;
+    text-align: center;
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-size: 12px;
+    color: #555;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-links a {
+    color: #666;
+    text-decoration: none;
+    margin: 0 5px;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #333;
+}
+
+footer p {
+    margin: 10px;
+    font-size: 12px;
+    color: #999;
+}
+
